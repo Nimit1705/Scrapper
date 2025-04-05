@@ -26,6 +26,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: debug env
+        env:
+          BASE_URL_PAGE: ${{ secrets.BASE_URL_PAGE }}
+        run: |
+          echo "Base: $BASE_URL_PAGE"
+
       - name: Execute python script
         env:
           SUPA_URL: ${{ secrets.SUPA_URL }}
