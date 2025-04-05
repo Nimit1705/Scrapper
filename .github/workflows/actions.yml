@@ -1,0 +1,55 @@
+name: Scrape data
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      SUPA_URL: ${{ secrets.SUPA_URL }}
+      SUPA_KEY: ${{ secrets.SUPA_KEY }}
+
+    permissions:
+      contents: write
+
+    steps:
+
+      - name: Checkout repo content
+        uses: actions/checkout@v3
+      
+      - name: Set up python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      
+      - name: Install python packages
+        run: | 
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Execute python script
+        run: python main.py
+      
+      - name: Commit and push changes
+        run: | 
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add progress.json
+          git commit -m "Updated progress"
+          git add status.log
+          git diff-index --quiet HEAD || (git commit -a -m "Updated logs" --allow-empty)
+          
+        
+      - name: push changes
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          branch: main 
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+# Ignore the directories
+/archives/
+/test/
+
+# Ignore the .env file for environment variables (it may contain sensitive information)
+.env
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__
+tempCodeRunnerFile.py
+
+# Ignore other unwanted files
+.DS_Store
+.idea/
