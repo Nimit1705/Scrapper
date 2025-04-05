@@ -6,6 +6,8 @@ import logging.handlers
 import json
 import os
 from supabase import create_client
+from dotenv import load_dotenv
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -20,10 +22,10 @@ logger_file_handler.setFormatter(formatter)
 logger.addHandler(logger_file_handler)
 
 
-url = os.environ["SUPA_URL"]
-key = os.environ["SUPA_KEY"]
-base_url_page = os.environ["BASE_URL_PAGE"]
-base_url = os.environ["BASE_URL"]
+url =  os.environ.get("SUPA_URL")
+key = os.environ.get("SUPA_KEY")
+base_url_page = os.environ.get("BASE_URL_PAGE")
+base_url = os.environ.get("BASE_URL")
 supabase = create_client(url, key)
 
 spec_list = {
