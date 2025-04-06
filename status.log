@@ -94,3 +94,12 @@
 2025-04-06 08:35:50,513 - __main__ - INFO - Scraping infinix - Page 2
 2025-04-06 08:38:07,240 - __main__ - INFO - Scraping infinix - Page 3
 2025-04-06 08:38:58,488 - __main__ - INFO - Paused at: {'brand_index': 3, 'page': 4}, brand:infinix
+2025-04-06 08:46:26,704 - __main__ - INFO - Started at: brand_index: infinix, page: 4
+2025-04-06 08:46:26,704 - __main__ - INFO - Scraping infinix - Page 4
+2025-04-06 08:46:27,021 - __main__ - INFO - No more products found for infinix on page 4. Moving to next brand.
+2025-04-06 08:46:27,021 - __main__ - INFO - Scraping apple - Page 1
+2025-04-06 08:47:04,287 - __main__ - INFO - Scraping apple - Page 2
+2025-04-06 08:47:04,593 - __main__ - INFO - No more products found for apple on page 2. Moving to next brand.
+2025-04-06 08:47:04,593 - __main__ - INFO - Scraping sony - Page 1
+2025-04-06 08:48:40,862 - __main__ - INFO - Scraping sony - Page 2
+2025-04-06 08:49:36,418 - __main__ - INFO - Paused at: {'brand_index': 5, 'page': 3}, brand:sony
