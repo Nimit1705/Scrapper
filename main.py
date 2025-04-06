@@ -191,7 +191,7 @@ def productDetails(product_html):
                         specs[spec_name] = value
 
         try:
-            data = supabase.table('scrappeddata').upsert(specs).execute()
+            data = supabase.table('scrappeddata').upsert(specs, on_conflict=["product_name"]).execute()
         except Exception as e:
             logger.info(f"Supabase error for {product_name}: {e}\n data: {data}")
         # print(f"done: {product_name}")
