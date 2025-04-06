@@ -59,19 +59,14 @@ spec_list = {
     }
 
 brand_list = [
-        "google",
-        "samsung",
         "honor",
         "oppo",
-        "nokia",
         "xiaomi",
-        "vivo",
         "infinix",
         "apple",
         "sony",
         "realme",
         "oneplus",
-        "huawei"
     ] 
 
 PROGRESS_FILE = "progress.json"
@@ -79,13 +74,13 @@ PAGE_PER_RUN = 3
 
 def loadProgress():
     if not os.path.exists(PROGRESS_FILE):
-        return {"brand_index" : 0, "page": 0}
+        return {"brand_index" : 0, "page": 1}
     try:
         with open(PROGRESS_FILE, 'r') as prog:
             return json.load(prog)
     except (json.JSONDecodeError, IOError) as e:
         logger.info(f"Error reading progress file: {e}. Starting from scratch.")
-        return {"brand_index": 0, "page": 0}
+        return {"brand_index": 0, "page": 1}
 
 
 
@@ -108,10 +103,7 @@ def save():
 
     while page_scrapped < PAGE_PER_RUN:
         name = brand_list[brand_index]
-        if page == 0:
-            url = base_url.format(name=name)
-        else:
-            url = base_url_page.format(page=page, name=name)
+        url = base_url_page.format(page=page, name=name)
         logger.info(f"Scraping {name} - Page {page}")
 
         try:
@@ -121,17 +113,14 @@ def save():
                     logger.info(f"No more products found for {name} on page {page}. Moving to next brand.")
                     if brand_index + 1 < len(brand_list):
                         brand_index += 1
-                        page = 0
+                        page = 1
                         continue
                     else:
                         logger.info("End of list")
                         break;
 
                 extract(webpage)
-                if page == 0:
-                    page = 2
-                else:
-                    page += 1
+                page += 1
                 page_scrapped += 1 
         except urllib.error.URLError as e:
             logger.info(f"Network error while fetching {url}: {e}")
