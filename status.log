@@ -29,3 +29,10 @@
 2025-04-06 05:14:03,555 - __main__ - INFO - No more products found for infinix on page 0. Moving to next brand.
 2025-04-06 05:14:03,555 - __main__ - INFO - Scraping apple - Page 0
 2025-04-06 05:14:52,191 - __main__ - INFO - Paused at: {'brand_index': 8, 'page': 2}, brand:apple
+2025-04-06 05:31:22,026 - __main__ - INFO - Started at: brand_index: apple, page: 2
+2025-04-06 05:31:22,026 - __main__ - INFO - Scraping apple - Page 2
+2025-04-06 05:31:22,408 - __main__ - INFO - No more products found for apple on page 2. Moving to next brand.
+2025-04-06 05:31:22,408 - __main__ - INFO - Scraping sony - Page 0
+2025-04-06 05:33:10,840 - __main__ - INFO - Scraping sony - Page 2
+2025-04-06 05:34:25,169 - __main__ - INFO - Scraping sony - Page 3
+2025-04-06 05:35:30,047 - __main__ - INFO - Paused at: {'brand_index': 9, 'page': 4}, brand:sony
