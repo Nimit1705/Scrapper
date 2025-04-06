@@ -110,3 +110,8 @@
 2025-04-06 08:55:38,992 - __main__ - INFO - No more products found for sony on page 5. Moving to next brand.
 2025-04-06 08:55:38,992 - __main__ - INFO - Scraping realme - Page 1
 2025-04-06 08:56:28,401 - __main__ - INFO - Paused at: {'brand_index': 6, 'page': 2}, brand:realme
+2025-04-06 09:09:48,378 - __main__ - INFO - Started at: brand_index: realme, page: 2
+2025-04-06 09:09:48,378 - __main__ - INFO - Scraping realme - Page 2
+2025-04-06 09:11:07,903 - __main__ - INFO - Scraping realme - Page 3
+2025-04-06 09:13:14,238 - __main__ - INFO - Scraping realme - Page 4
+2025-04-06 09:16:49,623 - __main__ - INFO - Paused at: {'brand_index': 6, 'page': 5}, brand:realme
