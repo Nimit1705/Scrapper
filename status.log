@@ -103,3 +103,10 @@
 2025-04-06 08:47:04,593 - __main__ - INFO - Scraping sony - Page 1
 2025-04-06 08:48:40,862 - __main__ - INFO - Scraping sony - Page 2
 2025-04-06 08:49:36,418 - __main__ - INFO - Paused at: {'brand_index': 5, 'page': 3}, brand:sony
+2025-04-06 08:53:17,454 - __main__ - INFO - Started at: brand_index: sony, page: 3
+2025-04-06 08:53:17,454 - __main__ - INFO - Scraping sony - Page 3
+2025-04-06 08:55:37,113 - __main__ - INFO - Scraping sony - Page 4
+2025-04-06 08:55:38,663 - __main__ - INFO - Scraping sony - Page 5
+2025-04-06 08:55:38,992 - __main__ - INFO - No more products found for sony on page 5. Moving to next brand.
+2025-04-06 08:55:38,992 - __main__ - INFO - Scraping realme - Page 1
+2025-04-06 08:56:28,401 - __main__ - INFO - Paused at: {'brand_index': 6, 'page': 2}, brand:realme
