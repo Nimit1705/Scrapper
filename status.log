@@ -68,3 +68,8 @@
 2025-04-06 06:54:03,862 - __main__ - INFO - No more products found for huawei on page 8. Moving to next brand.
 2025-04-06 06:54:03,862 - __main__ - INFO - End of list
 2025-04-06 06:54:03,862 - __main__ - INFO - Paused at: {'brand_index': 12, 'page': 8}, brand:huawei
+2025-04-06 07:44:23,396 - __main__ - INFO - Started at: brand_index: honor, page: 1
+2025-04-06 07:44:23,396 - __main__ - INFO - Scraping honor - Page 1
+2025-04-06 07:45:36,503 - __main__ - INFO - Scraping honor - Page 2
+2025-04-06 07:46:32,167 - __main__ - INFO - Scraping honor - Page 3
+2025-04-06 07:51:04,014 - __main__ - INFO - Paused at: {'brand_index': 0, 'page': 4}, brand:honor
