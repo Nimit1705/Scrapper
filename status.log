@@ -62,3 +62,9 @@
 2025-04-06 06:41:59,157 - __main__ - INFO - Scraping huawei - Page 5
 2025-04-06 06:43:40,677 - __main__ - INFO - Scraping huawei - Page 6
 2025-04-06 06:45:40,688 - __main__ - INFO - Paused at: {'brand_index': 12, 'page': 7}, brand:huawei
+2025-04-06 06:53:53,339 - __main__ - INFO - Started at: brand_index: huawei, page: 7
+2025-04-06 06:53:53,339 - __main__ - INFO - Scraping huawei - Page 7
+2025-04-06 06:54:03,523 - __main__ - INFO - Scraping huawei - Page 8
+2025-04-06 06:54:03,862 - __main__ - INFO - No more products found for huawei on page 8. Moving to next brand.
+2025-04-06 06:54:03,862 - __main__ - INFO - End of list
+2025-04-06 06:54:03,862 - __main__ - INFO - Paused at: {'brand_index': 12, 'page': 8}, brand:huawei
