@@ -5,3 +5,14 @@
 2025-04-06 04:38:20,519 - __main__ - INFO - Scraping samsung - Page 0
 2025-04-06 04:39:08,643 - __main__ - INFO - Scraping samsung - Page 2
 2025-04-06 04:40:52,590 - __main__ - INFO - Paused at: {'brand_index': 1, 'page': 3}, brand:samsung
+2025-04-06 04:50:39,286 - __main__ - INFO - Started at: brand_index: samsung, page: 3
+2025-04-06 04:50:39,286 - __main__ - INFO - Scraping samsung - Page 3
+2025-04-06 04:50:43,697 - __main__ - INFO - No more products found for samsung on page 3. Moving to next brand.
+2025-04-06 04:50:43,697 - __main__ - INFO - Scraping honor - Page 0
+2025-04-06 04:50:48,030 - __main__ - INFO - No more products found for honor on page 0. Moving to next brand.
+2025-04-06 04:50:48,030 - __main__ - INFO - Scraping oppo - Page 0
+2025-04-06 04:50:52,362 - __main__ - INFO - No more products found for oppo on page 0. Moving to next brand.
+2025-04-06 04:50:52,362 - __main__ - INFO - Scraping nokia - Page 0
+2025-04-06 04:52:23,749 - __main__ - INFO - Scraping nokia - Page 2
+2025-04-06 04:53:32,575 - __main__ - INFO - Scraping nokia - Page 3
+2025-04-06 04:54:44,377 - __main__ - INFO - Paused at: {'brand_index': 4, 'page': 4}, brand:nokia
