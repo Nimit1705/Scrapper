@@ -57,3 +57,8 @@
 2025-04-06 06:18:05,580 - __main__ - INFO - Scraping huawei - Page 2
 2025-04-06 06:24:08,988 - __main__ - INFO - Scraping huawei - Page 3
 2025-04-06 06:26:21,686 - __main__ - INFO - Paused at: {'brand_index': 12, 'page': 4}, brand:huawei
+2025-04-06 06:40:38,069 - __main__ - INFO - Started at: brand_index: huawei, page: 4
+2025-04-06 06:40:38,069 - __main__ - INFO - Scraping huawei - Page 4
+2025-04-06 06:41:59,157 - __main__ - INFO - Scraping huawei - Page 5
+2025-04-06 06:43:40,677 - __main__ - INFO - Scraping huawei - Page 6
+2025-04-06 06:45:40,688 - __main__ - INFO - Paused at: {'brand_index': 12, 'page': 7}, brand:huawei
