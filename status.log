@@ -43,3 +43,12 @@
 2025-04-06 05:48:23,281 - __main__ - INFO - Scraping realme - Page 2
 2025-04-06 05:50:36,429 - __main__ - INFO - Scraping realme - Page 3
 2025-04-06 05:51:25,122 - __main__ - INFO - Paused at: {'brand_index': 10, 'page': 4}, brand:realme
+2025-04-06 05:52:41,418 - __main__ - INFO - Started at: brand_index: realme, page: 4
+2025-04-06 05:52:41,418 - __main__ - INFO - Scraping realme - Page 4
+2025-04-06 05:52:45,793 - __main__ - INFO - No more products found for realme on page 4. Moving to next brand.
+2025-04-06 05:52:45,793 - __main__ - INFO - Scraping oneplus - Page 0
+2025-04-06 05:52:50,101 - __main__ - INFO - No more products found for oneplus on page 0. Moving to next brand.
+2025-04-06 05:52:50,102 - __main__ - INFO - Scraping huawei - Page 0
+2025-04-06 05:52:54,413 - __main__ - INFO - No more products found for huawei on page 0. Moving to next brand.
+2025-04-06 05:52:54,413 - __main__ - INFO - End of list
+2025-04-06 05:52:54,413 - __main__ - INFO - Paused at: {'brand_index': 12, 'page': 0}, brand:huawei
