@@ -16,3 +16,16 @@
 2025-04-06 04:52:23,749 - __main__ - INFO - Scraping nokia - Page 2
 2025-04-06 04:53:32,575 - __main__ - INFO - Scraping nokia - Page 3
 2025-04-06 04:54:44,377 - __main__ - INFO - Paused at: {'brand_index': 4, 'page': 4}, brand:nokia
+2025-04-06 05:11:06,722 - __main__ - INFO - Started at: brand_index: nokia, page: 4
+2025-04-06 05:11:06,722 - __main__ - INFO - Scraping nokia - Page 4
+2025-04-06 05:11:11,010 - __main__ - INFO - No more products found for nokia on page 4. Moving to next brand.
+2025-04-06 05:11:11,011 - __main__ - INFO - Scraping xiaomi - Page 0
+2025-04-06 05:11:15,273 - __main__ - INFO - No more products found for xiaomi on page 0. Moving to next brand.
+2025-04-06 05:11:15,273 - __main__ - INFO - Scraping vivo - Page 0
+2025-04-06 05:12:42,060 - __main__ - INFO - Scraping vivo - Page 2
+2025-04-06 05:13:55,052 - __main__ - INFO - Scraping vivo - Page 3
+2025-04-06 05:13:59,307 - __main__ - INFO - No more products found for vivo on page 3. Moving to next brand.
+2025-04-06 05:13:59,307 - __main__ - INFO - Scraping infinix - Page 0
+2025-04-06 05:14:03,555 - __main__ - INFO - No more products found for infinix on page 0. Moving to next brand.
+2025-04-06 05:14:03,555 - __main__ - INFO - Scraping apple - Page 0
+2025-04-06 05:14:52,191 - __main__ - INFO - Paused at: {'brand_index': 8, 'page': 2}, brand:apple
