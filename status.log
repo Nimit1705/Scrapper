@@ -73,3 +73,12 @@
 2025-04-06 07:45:36,503 - __main__ - INFO - Scraping honor - Page 2
 2025-04-06 07:46:32,167 - __main__ - INFO - Scraping honor - Page 3
 2025-04-06 07:51:04,014 - __main__ - INFO - Paused at: {'brand_index': 0, 'page': 4}, brand:honor
+2025-04-06 07:52:18,057 - __main__ - INFO - Started at: brand_index: honor, page: 4
+2025-04-06 07:52:18,057 - __main__ - INFO - Scraping honor - Page 4
+2025-04-06 07:52:22,624 - __main__ - INFO - No more products found for honor on page 4. Moving to next brand.
+2025-04-06 07:52:22,624 - __main__ - INFO - Scraping oppo - Page 1
+2025-04-06 07:52:26,960 - __main__ - INFO - No more products found for oppo on page 1. Moving to next brand.
+2025-04-06 07:52:26,960 - __main__ - INFO - Scraping xiaomi - Page 1
+2025-04-06 07:58:15,304 - __main__ - INFO - Scraping xiaomi - Page 2
+2025-04-06 07:59:42,629 - __main__ - INFO - Scraping xiaomi - Page 3
+2025-04-06 08:03:53,110 - __main__ - INFO - Paused at: {'brand_index': 2, 'page': 4}, brand:xiaomi
