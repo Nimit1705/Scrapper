@@ -1,0 +1,7 @@
+2025-04-06 04:37:48,792 - __main__ - INFO - Started at: brand_index: google, page: 0
+2025-04-06 04:37:48,792 - __main__ - INFO - Scraping google - Page 0
+2025-04-06 04:38:19,963 - __main__ - INFO - Scraping google - Page 2
+2025-04-06 04:38:20,519 - __main__ - INFO - No more products found for google on page 2. Moving to next brand.
+2025-04-06 04:38:20,519 - __main__ - INFO - Scraping samsung - Page 0
+2025-04-06 04:39:08,643 - __main__ - INFO - Scraping samsung - Page 2
+2025-04-06 04:40:52,590 - __main__ - INFO - Paused at: {'brand_index': 1, 'page': 3}, brand:samsung
