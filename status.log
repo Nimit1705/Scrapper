@@ -82,3 +82,8 @@
 2025-04-06 07:58:15,304 - __main__ - INFO - Scraping xiaomi - Page 2
 2025-04-06 07:59:42,629 - __main__ - INFO - Scraping xiaomi - Page 3
 2025-04-06 08:03:53,110 - __main__ - INFO - Paused at: {'brand_index': 2, 'page': 4}, brand:xiaomi
+2025-04-06 08:12:20,359 - __main__ - INFO - Started at: brand_index: xiaomi, page: 4
+2025-04-06 08:12:20,359 - __main__ - INFO - Scraping xiaomi - Page 4
+2025-04-06 08:13:50,035 - __main__ - INFO - Scraping xiaomi - Page 5
+2025-04-06 08:15:03,395 - __main__ - INFO - Scraping xiaomi - Page 6
+2025-04-06 08:21:26,294 - __main__ - INFO - Paused at: {'brand_index': 2, 'page': 7}, brand:xiaomi
